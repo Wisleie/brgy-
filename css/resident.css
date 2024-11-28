@@ -1,0 +1,624 @@
+.add{
+    border-top: .5mm solid white;
+    width: 95%;
+    height: 50%;
+    margin-left: 2%;
+    margin-top: 1%;
+    color: white;
+    position: relative;
+    
+}
+#add{
+    position: relative;
+    width: 30%;
+    height: 10%;
+    background: none;
+    border: none;
+    margin-top: .5%;
+}
+#add input{
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 1%;
+    background-color: #ffffff63;
+    border-radius: .4rem;
+    border: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3%;
+    border: .5mm solid rgba(255, 255, 255, 0.693);
+
+}
+#add span{
+    background: none;
+    color: white;
+    position: absolute;
+    right: 2%;
+    bottom: 15%;
+}
+#add input::placeholder{
+    color: white;
+    font-size: 17px;
+}
+#adds{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 2%;
+    background-color: #34A353;
+    border-radius: .4rem;
+    border: none;
+    color: white;
+    width: 10%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#adds span{
+    margin-right: 2%;
+}
+#adds p{
+    margin-left: 3%;
+    margin-top: -2%;
+}
+#edit{
+    cursor: pointer;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    background-color: #34A353;
+    border-radius: .4rem;
+    border: none;
+    color: white;
+    width: 15%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+#edit span{
+    margin-right: 3%;
+    font-size: 13px;
+}
+.sec{
+    width: 98%;
+    height: 76%;
+    margin-top: -24%;
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    overflow-x: hidden;
+    padding: 0;
+    gap: 10px;
+}
+.sec::-webkit-scrollbar{
+    width: 0;
+}
+.sec #blur .active{
+    filter: blur(100px);
+}
+.card-one{
+    width: 90%;
+    height: 100%;
+    background: linear-gradient( #1E4460 50%, #1E4460 50%, white 50%);
+    border-radius: .5rem;
+    display: grid;
+    position: relative;   
+}
+.input-one{
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.picture{
+    width: 28%;
+    clip-path: circle(50%);
+    margin-left: 34%;
+    border: 1mm solid white;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 15%;
+    
+    
+    
+
+    
+}
+
+.merge{
+    width: 90%;
+    margin-top: 29%;
+    margin-left: 4%;
+    display: flex;
+}
+.merge input{
+    border: none;
+    background: none;
+    width: 70%;
+    text-align: center;
+}
+.box-one, .box-two, .box-three{
+    text-align: center;
+    font-weight: 700;
+    color: #285A81;
+    width: 60%;
+}
+.bow-three button{
+    border: white;
+    background: white;
+    
+}
+.box-three .button{
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-weight: 700;
+    color: #285A81;
+}
+.box-three .button .bi{
+    color: #3B7EFF;
+    
+}
+.view-open{
+    border: none;
+    background: none;
+    color:#285A81;
+    font-weight: 700;
+}
+.view-open svg{
+    color: #3B7EFF;
+}
+.box{
+    border-left: .5mm solid black;
+    border-right: .5mm solid black;
+    color: white;
+    width: 29.7%;
+    height: 18%;
+    position: absolute;
+    bottom: 2%;
+    left: 33.7%;
+
+
+}
+#modal{
+    margin-top: 12%;
+    margin-left: 300px;
+    width: 77.7%;
+    height: 76%;
+    border: none;
+    background: rgba(136, 135, 135, 0.164);
+    backdrop-filter: blur(3px);    
+}
+#modal::-webkit-scrollbar{
+    width: 0;
+}
+#modal .container{
+    padding-top: 3%;
+    margin-top: 1.5%;
+    margin-left: 7%;
+    width: 85%;
+    height: 200%;
+    background-color: white;
+}
+#modal .container .center h1{
+    color: black;
+    font-size: 30px;
+}
+#modal .container .center code{
+    font-size: 20px;
+}
+#modal .container .center span{
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+}
+#modal .container p{
+    border-bottom: 1mm solid #B6B6B6;
+    font-size: 24px;
+    margin-top: 2%;
+    color: #B6B6B6;
+    width: 90%;
+    margin-left: 5%;
+}
+#modal .container .two-by-two{
+    margin-top: 2%;
+    width: 200px;
+    height: 200px;
+}   
+#modal .container .make .circle{
+    width: 15%;
+}
+#modal .container .make .circle #sts{
+    width: 100%;
+}
+#modal .container ul{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    list-style: none;
+}
+#modal .container ul li{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal .container ul li span{
+    font-weight: 100;
+    text-align: start;
+    color: black;
+    font-size: 20px;
+    border: none;
+   
+    width: 15%;
+}
+#modal .container ul li input{
+    text-align: start;
+    font-size: 20px;
+    padding-left: 20px;
+    width: 90%;
+}
+.info{
+    height: 40%;
+    margin-top: 3%;
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+    max-height: 50%;
+
+
+}
+#info{
+    height: 100%;
+    background-color: #F2F2F2;
+}
+.back{
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+    height: 6%;
+    margin-top: .3%;
+    margin-left: 88.2%;
+    display: flex;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    border-radius: .3rem;
+}
+.editable, .add-resident{
+    position: absolute;
+    width: 80.3%;
+    height: 74%;
+    left: 300px;
+    bottom: 0;
+    display: none;
+    overflow-x: hidden;
+    border: transparent;
+    background-color: rgba(255, 255, 255, .027);
+    backdrop-filter: blur(5px);
+}
+.view-resident{
+    border: none;
+    position: absolute;
+    width: 80%;
+    height: 74%;
+    left: 300px;
+    bottom: 0;
+    display: none;
+    background-color: rgba(255, 255, 255, .027);
+    backdrop-filter: blur(5px);
+}
+.back-button{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.back-button button{
+    margin-top: 1%;
+    width: 7%;
+    height: 100%;
+    margin-right: 4.7%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color: white;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.back-button button img{
+    width: 17%;
+    margin-left: 3%;
+}
+.laman{
+    width: 100%;
+    margin-top: 1%;
+    height: 91%;
+    overflow-x: hidden;
+    
+}
+.laman::-webkit-scrollbar{
+    width: 0;
+}
+.editable::-webkit-scrollbar{
+    width: 0;
+}
+.hide{
+    cursor: pointer;
+}
+.edit-container{
+    margin-top: 2.5%;
+    margin-left: 5%;
+    position: relative;
+    background-color: white;
+    width: 90%;
+    height: 110%;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    grid-template-areas: 
+    "exit"
+    "info";
+}   
+.view-container{
+    margin-left: 10%;
+    position: relative;
+    background-color: white;
+    width: 80%;
+    height: auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+}   
+.line{
+    margin-left: 2.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    width:93%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .5mm solid gray;
+}
+.cen{
+    text-align: center;
+    line-height: 170%;
+}
+.pic{
+    text-align: center;
+    padding-top: 2%;
+    margin-bottom: 5%;
+
+}
+.pic img{
+    width: 30%;
+    border: 4px solid #CCCCCC;
+    border-radius: 15px;    
+}
+.cen h1 code{
+    font-size: 20px;
+}
+.lines ul{
+    border: .5mm sold blue;
+    width: 100%;
+    list-style: none;
+}
+.lines ul li{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lines ul li input{
+    height: 100%;
+    width: 80%;
+    padding-left: 3%;
+    border: none;
+    background: none;
+}
+.text{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+}
+.text span{
+    margin-top: 1%;
+    margin-left: 1%;
+    color: #8D8D8D;
+}
+.text input{
+    color: #8D8D8D;
+}
+.text ul{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.lines{
+    padding-left: 1%;
+    padding-right: 1%;
+    width:90%;
+    height: 20%;
+    padding: 4% 5%;
+}
+.gulis{
+    border-bottom: .8mm solid #B6B6B6;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: #B6B6B6;
+}
+.line button{
+    border: none;
+    background: none;
+}
+.cir{
+    width: 13%;
+    clip-path: circle(50%);
+}
+.form{
+    display: grid;
+    grid-template-columns: 315px 315px 315px;
+    grid-template-areas: 
+    "first second third";
+    height: 94%;
+    padding: 2%;
+    padding-top: 1%;
+}
+.edit-pin{
+    grid-area: first;
+}
+#open-view{
+    display: none;
+}
+.s{
+    grid-area: second;
+}
+.end{
+    grid-area: third;
+}
+#two-by-two{
+    position: absolute; 
+    display: none;
+}
+#add-per-pic{
+    position: absolute; 
+    display: none;
+}
+#pic{
+    
+    border: 4px solid gray;
+    width: 180px;
+    border-radius: 12px;
+}
+#add-per{
+    
+    border: 4px solid gray;
+    width: 60%;
+    border-radius: 12px;
+}
+#label{
+    grid-area: button;
+    background-color: #34A353;
+    height: 6%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1mm;
+    font-size: 15px;
+    color: white;
+    margin-left: 20%;
+    margin-bottom: 2%;
+}   
+#label img{
+    width: 95%;
+    margin-top: 20%;
+}
+.kayls{
+    text-align: center;
+}
+.form ul{
+    width: 100%;
+    height: 100%;
+}
+.form ul li{
+    list-style: none;
+    width: 60%;
+    padding-left: 20%;
+    margin-bottom: 3%;
+
+}
+.form ul li span{
+    color: black;
+    font-size: 17px;
+    margin-left: 5%;
+}
+.orm ul li input, select{
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    border: .5mm solid gray;
+    background: none;
+    border-radius: 5px;
+    padding-left: 3%;
+}
+select{
+    width: 105%;
+}
+.line p input{
+    width: 11ch;
+    text-transform: uppercase;
+    border: none;
+}
+.line p, .line p input{
+    font-size: 17px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -13%;
+    height: 8%;
+}
+.del{
+    background-color: #FF0000;
+}
+.cancel{
+    background-color: #FFC300;
+}
+.canceled{
+    background-color: #FF0000;
+}
+.save{
+    background-color: #7AB2DD;
+}
+.buttons button{
+    border: none;
+    margin-right: 2%;
+    width: 30%;
+    height: 100%;
+    color: white;
+    border-radius: .3rem;
+    font-size: 15px;
+}
+.card-one .edit-open{
+    top: 5%;
+    right: 2%;
+    position: absolute;
+    width: 45px;
+    height: 20px;
+    border-radius: .8rem;
+    background-color: #34A353;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.edit-open .edit{
+    width: 12px;
+}
+.edit-open p{
+    font-size: 10px;
+    color: white;
+}

@@ -1,0 +1,131 @@
+#active button{
+    margin-left: 4px;
+    background-color: #DC0505;
+    color: white;
+    border:  none;
+    width: 90%;
+    height: 50%;
+    cursor: pointer;
+    border-radius: 1mm;
+}
+
+
+#action button{
+    margin-left: 4px;
+    background-color: #3B7EFF;
+    border: none;
+    color: white;
+    border:  none;
+    width: 50%;
+    height: 90%;
+    cursor: pointer;
+    border-radius: 1mm;
+
+}
+input{
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+.add{
+    border-top: .5mm solid white;
+    width: 95%;
+    height: 50%;
+    margin-left: 2%;
+    margin-top: 1%;
+    color: white;
+    position: relative;
+    
+}
+.add p{
+    margin-top: 1%;
+    font-weight: 700;
+}
+.contents{
+    background-color: white;
+    width: 30%;
+    height: auto;
+              
+}
+main-three{
+    top: 29%;
+    background: none;
+    width: 50%;
+    height: 67%;
+    gap: 15%;
+    position: fixed;
+    padding: 10px;
+    background-color: #F0F0F0;
+    overflow-x: auto;
+}
+table{
+    width: 50%;
+    height: auto;
+    overflow-y: hidden;
+}
+.th{
+    width: 5.5%;
+    text-align: center;
+
+}
+.thr-title{
+    width: 14%;
+    text-align: center;
+
+}
+.three-title{
+    width: 5%;
+    text-align: center;
+
+}
+#add{
+    position: absolute;
+    right: 0;
+    top: 1%;
+    background-color: #ffffff63;
+    border-radius: .4rem;
+    border: none;
+    color: white;
+    width: 30%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .5mm solid rgba(255, 255, 255, 0.693);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#add input{
+    height: 100%;
+    font-size: 17px;
+    background: none;
+    border: none;
+    color: white;
+    text-align:start;
+}
+#add input::placeholder{
+    color: white;
+    font-size: 17px;
+}
+
+
+
+
+/* X-Small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {  }

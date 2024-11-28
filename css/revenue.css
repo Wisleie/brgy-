@@ -1,0 +1,220 @@
+main-container{
+    border-radius: 2rem;
+    background-color: #D9D9D9;
+    position: fixed;
+    width: 70.7%;
+    height: 76%;
+    margin-top: .5%;
+    margin-left: 2%;
+    border: .5mm solid white;
+    display: grid;
+    grid-template-rows: 150px auto;
+    grid-template-areas: 
+    "current"
+    "info";
+     
+
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.671);
+    border-radius: .5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(106px, 1fr));
+    width:90%;
+    height: 95%;
+   
+
+}
+.info-container{
+    grid-area: info;
+    width: 99.7%;
+    height: 93.3%;  
+}
+.infos{
+    margin-left: 7.5%;
+    width: 85%;
+    height: 100%;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 7%;
+    padding-left: 3;
+    padding-top: 3%;
+}
+.infos::-webkit-scrollbar{
+    width: 0;
+}
+.info{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.info .img{
+    display: flex;
+    justify-content: center;
+    margin-top: -10%;
+}
+.gray{
+    font-size: 0px;
+    width: 85%;
+    border-bottom: .5mm solid gray;
+    margin-left: 7.5%;
+}
+.info p{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #8C8C8C;
+}
+.info input{
+    width: 97%;
+    background: none;
+    border: none;
+
+    text-align: center;
+}
+.info .names{
+    margin-top: 5%;
+}
+.info .papel{
+    margin-top: 10%;
+}
+.info .petcha{
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+.info ul li{
+    list-style: none;
+}
+.info ul li #price{
+    font-size: 40px;
+    letter-spacing: -2px;
+    color: #34A353;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight:bold;
+    font-style: normal;
+}
+.info ul li #name-info{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 11px;    
+}
+.info ul li #paper{
+    color: #FF0000;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 13px;
+}
+.info ul li #date{
+    color: #8C8C8C;
+    font-family: "Titillium Web", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 11px;
+}
+.info ul{
+    line-height: 10%;
+}
+#month{
+    width: 29%;
+    font-size: 10px;
+}
+#day{
+    width: 8%;
+}
+
+#year{
+    width: 20%;
+}
+#hour{
+    width: 20%;
+}
+#min{
+    width: 20%;
+}
+#time{
+    width: 20%;
+}
+#month, #day, #year, #hour, #min, #time{
+    font-size: 10px;
+}
+.date{
+    width: 100%;
+    display: flex;
+}
+.current{
+    grid-area: current;
+    background-color: #1E4460;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 85%;
+    height: 70%;
+    margin-left: 7.5%;
+    margin-top: 3%;
+    padding-top: 1%;
+    
+}
+.current .revenue{
+    font-size: 80px;
+    width: 100%;
+    height: 75%;
+    text-align: center;
+    color: white;
+    background: none;
+    border: none;
+    margin-top: 1%;
+}
+.current p{
+    display: flex;
+    justify-content: start;
+    margin-left: 3%;
+    color: white;
+    
+}
+.container .one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+}
+.label{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 20px;
+}
+#count{
+    margin-top: 2%;
+
+    border:none;
+    font-size: 50px;
+    height: 60%;
+    width: 100%;
+}
+.container input{
+    background: none;
+    text-align: center;
+   
+}
+
+.container .one span{
+    font-size: 100px;
+    margin: 10%;
+}
+.add{
+    border-top: .5mm solid white;
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 1%;
+    color: white;
+    position: relative;
+
+    font-size: 0px;
+}
+.revenue{
+    margin-top: 3%;
+    border: none;
+}

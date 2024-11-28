@@ -1,0 +1,233 @@
+main{
+    position: relative;
+}
+.add{
+    border-top: .5mm solid white;
+    width: 95%;
+    height: 50%;
+    margin-left: 2%;
+    margin-top: 1%;
+    color: white;
+    position: relative;
+    
+}
+.add p{
+    margin-top: 1%;
+    font-weight: 700;
+}
+#add{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 2%;
+    background-color: #34A353;
+    border-radius: .4rem;
+    border: none;
+    color: white;
+    width: 10%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#add span{
+    margin-right: 3%;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100dvh;
+    background-image: url(1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.body{
+    display: grid;
+    grid-template-columns: auto 1fr;    
+}
+    .box{
+        position: absolute;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        width: 33%;
+        height: 15%;
+        bottom: 5%;
+        left: 33%;
+        color: white;
+    }
+.box-one, .box-two, .box-three{
+    text-align: center;
+    font-weight: 700;
+    color: #285A81;
+    width: 100%;
+   
+
+}
+
+.cap{
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 1%;
+    border-bottom: .5mm solid white;
+
+}
+.card-one{
+    width: 90%;
+    height: 100%;
+    background: linear-gradient( #1E4460 50%, #1E4460 50%, white 50%);
+    border-radius: .5rem;
+    display: grid;
+    position: relative;   
+}
+
+.card-two{
+    width: 30%;
+    height: 77%;
+    background: linear-gradient( #1E4460 22%, #1E4460 22%, white 22%);
+    border-radius: .5rem;
+    margin-top: -27%;
+    margin-left: 20px;
+
+
+}
+.card-two ul{
+    border: .5mm solid #D8D8D8;
+    width: 90%;
+    height: 55%;
+    margin-left: 5%;
+    border-radius: 1rem;
+    display: block;
+ 
+
+
+  
+}
+.card-two ul li{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    border-bottom:.1mm solid #D8D8D8;
+ 
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #1E4460;
+}
+.card-two ul li span{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    list-style: none;
+    margin-top: 10px;
+    color: #1E4460;
+}
+.card-two ul li .list{
+    height: 10%;
+    width: 100%;
+    justify-content: end;
+    text-align: end;
+    color: black;
+    border: none;
+}
+.input-one{
+    margin-top: 2%;
+    width: 100%;
+    text-align: center;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.input-two{
+    margin-top: -5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    border: none;
+    color: white;
+    font-size: 25px;
+    background: none;
+    font-weight: 700;
+    color: #285A81;
+}
+.lower{
+    font-size: 13px;
+}
+main-one{
+    margin-left: 50%;
+    margin-top: 18%;
+    background: none;
+    width: 45%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 15%;
+    position: fixed;
+    overflow-x: auto;
+   
+}
+main-one::-webkit-scrollbar{
+    width: 0;
+}
+.merge{
+    width: 100%;
+    margin-top: -2%;
+
+    display: flex;
+    position: relative;
+}
+.name-one{
+    font-size: 15px;
+}
+
+.picture{
+    width: 35%;
+    height: 100%;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: -15px;
+    border: 1mm solid white;
+}
+.picture-two{
+    width: 35%;
+    height: 22%;
+    border-radius: 50%;
+    margin-left: 100px;
+    position: center;
+    margin-top: 10px;
+    border: 1mm solid white;
+}
+.position{
+    position: absolute;
+    top: -15%;
+    left: 7%;
+}
+.sec{
+    width: 61.2%;
+    height: 71.5%;
+    position: absolute;
+    top: 27%;
+    left: 37%;
+    display: grid;
+    grid-template-columns: auto auto;
+    overflow-x: hidden;
+    padding: 0;
+    gap: 10px;
+}
+.sec::-webkit-scrollbar{
+    width: 0;
+}
+
